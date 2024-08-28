@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.presentacion {
+    background-color: #00bf63;
+    height: 750px;
+    opacity: .8;
+}
+
+.custom {
+    background-color: #ffffff;
+}
+
+.custom-h2 {
+    color: #ffffff;
+    font-size: clamp(3rem, 6vw, 5.25rem);
+    margin-top: 5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.custom-p {
+    color: #ffffff;
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.start-btn {
+    background-color: #007b7f;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.start-btn:hover {
+    background-color: #008387;
+    color: #ffffff;
+}
+
+.start-btn:active {
+    background-color: #008387 !important;
+    color: #ffffff !important;
+}
+
+.gantt-chart {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
